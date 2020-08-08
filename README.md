@@ -49,7 +49,7 @@
   2. Install and assure correct configuration of all dependencies
   (see `Dependencies/dependencies.md`), namely SSH;
 
-  3. Fire up an SSH server, e.g., 
+  3. Fire up an SSH server, e.g.,   
   `> systemctl start sshd`
 
 
@@ -71,34 +71,34 @@
   the `Admin` folder. 
 
   4. Navigate into `The Corrector/Admin` folder with a terminal. Run the
-  script 
+  script   
   `> ./0-create-database.sh`
 
   5. One may now print the passwords/codes for each student to access the 
-  app. For that, just run the script
-  `> ./0-show-codes.sh` on `Tests-over-SSH/Admin`
+  app. For that, just run the script  
+  `> ./0-show-codes.sh` on `Tests-over-SSH/Admin`  
   Do not forget to print the output and provide only each password 
   individually. For increased security, each student should make the login 
   only under supervision of the Professor.
 
   6. If all goes well, go into the root folder of the `Tests-over-SSH` and
-  run the script 
+  run the script  
   `> ./1-run-me-first.sh`.
 
-  7. Run the script
+  7. Run the scrip  t
   `> ./2-create-access-point.sh` avaible in the root folder of the platform
-  You should now be able to join a **CLItests** wifi network with 
-  password **CLItests**.  
+  (you should now be able to join a **CLItests** wifi network with 
+  password **CLItests**).  
 
   8. You may also want to see the `log.md` file in real time. Use the monitor
-  script for that purpose:
+  script for that purpose:  
   `> ./3-monitor.sh`
 
   9. Test the app by opening a terminal and logging in with **ssh** into the 
-  gateway using the **guest** account (all students use this account to login):
-  `> ssh guest@ip_address`
-  e.g.,
-  `> ssh guest@192.168.12.1`
+  gateway using the **guest** account (all students use this account to login):  
+  `> ssh guest@ip_address`  
+  e.g.,  
+  `> ssh guest@192.168.12.1`  
 
   10. When asked for a code, use `letmein`. A test user with username `12589`
   and password `letmein` is created automatically for testing purposes.
@@ -108,9 +108,9 @@
 
   1. During tests, one may need to add a new student or reset the a given 
   test. Two commodity scripts were provided for that purpose on the `Admin`
-  folder:
-  `> ./insert-student.sh` (for inserting a student);
-  `> ./reset-student.sh` (for resetting a student).
+  folder:  
+  `> ./insert-student.sh` (for inserting a student);  
+  `> ./reset-student.sh` (for resetting a student).  
 
 
 ##  Fase IV - Wrapping Up
@@ -118,7 +118,7 @@
   Once all tests were finished, folders need to be cleaned up and a zip file
   with evidences of tests submitted in the tool needs to be created. For that:
 
-  1. Run `5-cleanup.sh` from the `Tests-over-SSH` root folder.  
+  1. Run `5-cleanup.sh` from the `Tests-over-SSH` root folder.   
   (A zip file is created on the root folder and the resulting database with 
   scores is placed there and in folder `Admin`).
 
