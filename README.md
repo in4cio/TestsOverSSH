@@ -1,4 +1,4 @@
-#   The Corrector
+#   Tests-over-SSH
 
   The Tests-over-SSH Platform (c) is a custom made program.
   It was build specifically to create an environment where tasks involving
