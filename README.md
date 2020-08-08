@@ -131,8 +131,8 @@
 
 #   Copyright Notice
 
-  Developed by Pedro R. M. Inácio (c)"  
-  Department of Computer Science"  
-  Universidade da Beira Interior"  
+  Developed by Pedro R. M. Inácio (c)  
+  Department of Computer Science   
+  Universidade da Beira Interior  
 
   2020
