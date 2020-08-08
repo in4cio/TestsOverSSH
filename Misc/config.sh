@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Max SCORE at this test (SHOULD OCCUPY 2 SPACES)
+SCORE="10"
+
+# START in HH:MM (SHOULD OCCUPY 5 SPACES)
+START_TIME="10:00"
+
+# DURATION in minutes
+DURATION=120
