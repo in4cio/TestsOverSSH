@@ -85,7 +85,7 @@
   run the script  
   `> ./1-run-me-first.sh`.
 
-  7. Run the scrip  t
+  7. Run the script  
   `> ./2-create-access-point.sh` avaible in the root folder of the platform
   (you should now be able to join a **CLItests** wifi network with 
   password **CLItests**).  
