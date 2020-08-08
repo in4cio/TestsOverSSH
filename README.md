@@ -60,15 +60,15 @@
   2. Adapt templates from the **Tests** and **Staging** folders to your need. 
   Only files in the **Staging** folder will make their way into the final tests.
   Notice and assure adherence to the terminoloy and notation in the provided
-  examples:
+  examples:  
     * **01-MCQ.sh** - refers to question **1**, which is a **M**ultiple 
-    **C**hoice **Q**uestion;
+    **C**hoice **Q**uestion;  
     * **02-MCT.sh** - refers to question **2**, which is a **T**ask with a 
-    **M**ultiple **C**hoice **Q**uestion;
+    **M**ultiple **C**hoice **Q**uestion;  
     * **03-DAQ.sh** - refers to question **3**, which is a **D**irect 
-    **A**nswer **Q**uestion;
+    **A**nswer **Q**uestion;  
     * **04-DAT.sh** - refers to question **4**, which is a **T**ask with a 
-    **D**irect **A**nswer **Q**uestion.
+    **D**irect **A**nswer **Q**uestion.  
 
   3. Place a **comma separated values** file called **students.cvs** in
   the **Admin** folder. 
@@ -131,8 +131,8 @@
 
 #   Copyright Notice
 
-  Developed by Pedro R. M. Inácio and Joana Costa (copyright)"
-  Department of Computer Science"
-  Universidade da Beira Interior"
+  Developed by Pedro R. M. Inácio (c)"  
+  Department of Computer Science"  
+  Universidade da Beira Interior"  
 
   2020
