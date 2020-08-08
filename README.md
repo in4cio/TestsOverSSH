@@ -60,16 +60,12 @@
 
   2. Adapt templates from the `Tests` and `Staging` folders to your need. 
   Only files in the `Staging` folder will make their way into the final tests.
-  Notice and assure adherence to the terminoloy and notation in the provided
+  Notice and assure adherence to the terminology and notation in the provided
   examples:  
-    * `01-MCQ.sh` - refers to question **1**, which is a **M**ultiple 
-    **C**hoice **Q**uestion;  
-    * `02-MCT.sh` - refers to question **2**, which is a **T**ask with a 
-    **M**ultiple **C**hoice **Q**uestion;  
+    * `01-MC.sh` - refers to question **1**, which is a **M**ultiple 
+    **C**hoice question or task;  
     * `03-DAQ.sh` - refers to question **3**, which is a **D**irect 
-    **A**nswer **Q**uestion;  
-    * `04-DAT.sh` - refers to question **4**, which is a **T**ask with a 
-    **D**irect **A**nswer **Q**uestion.  
+    **A**nswer question or task;  
 
   3. Place a **comma separated values** file called `students.cvs` in
   the `Admin` folder. 
@@ -122,19 +118,19 @@
   Once all tests were finished, folders need to be cleaned up and a zip file
   with evidences of tests submitted in the tool needs to be created. For that:
 
-  1. Run `5-cleanup.sh` from the `Tests-over-SSH` root folder.
+  1. Run `5-cleanup.sh` from the `Tests-over-SSH` root folder.  
   (A zip file is created on the root folder and the resulting database with 
   scores is placed there and in folder `Admin`).
 
-  2. You may run several scripts from the `Admin` folder, namely:
-  `> ./see-results.sh` (to see a summary of all results and export them);
-  `> ./see-all.sh`     (to see scores per question for all students).
+  2. You may run several scripts from the `Admin` folder, namely:  
+  `> ./see-results.sh` (to see a summary of all results and export them);  
+  `> ./see-all.sh`     (to see scores per question for all students).  
 
 #   Copyright and Licence
 
   Copyright and licence in `LICENCE.md`.
 
-  Developed by Pedro R. M. Inácio
+  Developed by Pedro R. M. Inácio  
   Department of Computer Science   
   Universidade da Beira Interior  
 
