@@ -129,9 +129,11 @@
   `> ./see-results.sh` (to see a summary of all results and export them);
   `> ./see-all.sh`     (to see scores per question for all students).
 
-#   Copyright Notice
+#   Copyright and Licence
 
-  Developed by Pedro R. M. Inácio (c)  
+  Copyright and licence in `LICENCE.md`.
+
+  Developed by Pedro R. M. Inácio
   Department of Computer Science   
   Universidade da Beira Interior  
 
